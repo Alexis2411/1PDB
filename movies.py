@@ -7,7 +7,7 @@ st.header('Integrantes:')
 st.subheader('Roman Alvarez Alexis Javier')
 st.subheader('Ortega Murillo Johan Paul')
 
-DATA_URL = ('/content/movies.csv')
+DATA_URL = ('https://raw.githubusercontent.com/Alexis2411/1PDB/main/movies.csv')
 
 @st.cache
 def load_data(nrows):
