@@ -20,7 +20,7 @@ sidebar = st.sidebar
 sidebar.title("MENU")
 
 
-DATA_URL = ('/content/Employees.csv')
+DATA_URL = ('https://raw.githubusercontent.com/Alexis2411/1PDB/main/Employees.csv')
 
 @st.cache
 def load_data(nrows):
